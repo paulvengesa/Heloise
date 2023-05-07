@@ -1,0 +1,263 @@
+@import url('https://fonts. googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 25px;
+    font-style:italic;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+   display: inline-block; 
+   padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding:9px 25px ;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.pic{
+    background-size: cover;
+    object-fit: cover;
+    background-attachment:fixed;
+    background-position:center ;
+}
+
+.i{
+    background-image: url("./PICTURES/home1.jpeg");
+    height: 900px;
+    
+}
+
+.ii{
+    height: 700px;
+    background-image:url("./PICTURES/home2.jpg");
+}
+
+.iii{
+    height: 700px;
+    background-image:url("./PICTURES/home5.jpg");
+}
+
+.iv{
+    height: 700px;
+    background-image:url("./PICTURES/home12.jpeg");
+}
+
+.v{
+    height: 700px;
+    background-image: url("./PICTURES/menu1.jpeg");
+}
+.vi{
+    height: 700px;
+    background-image: url("./PICTURES/res1.jpg");
+}
+
+
+p{
+    line-height: 2em;
+    color: #000;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Herr Von Muellerhoff;
+    line-height: 2em;
+}
+
+
+
+.image{
+    object-fit:scale-down;
+    float: right;
+    object-fit:contain;
+    width: 100px;
+}
+
+.title{
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: bolder ;
+
+}
+
+.container {
+    position:inherit;
+    text-align: center;
+    color: rgb(245, 235, 235);
+    overflow:hidden;
+    transform-style: preserve -3d;
+    z-index: -1;
+    background-attachment:scroll;
+}
+.gallery {
+    --s: 10px; /* controls the size */
+    --g: 10px;  /* controls the gap */
+  
+    display: grid;
+    gap: var(--g);
+    width: calc(3*var(--s) + 2*var(--g)); /* 3 times the size plus 2 times the gap */
+    aspect-ratio: 1;
+    grid-template-columns: repeat(3, auto);
+}
+
+.amb{
+    height: 400px;
+}
+.mnu{
+    height: 850px;
+}
+.bma{
+    height: 600px;
+}
+.lct{
+    height: 650px;
+}
+
+.con{
+    position:inherit;
+   text-align: center;
+   color: white;
+   overflow:scroll;
+   top: 50%;
+}
+
+.centered{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px; 
+    overflow:hidden;
+    text-align: center;
+}
+
+.main {
+    position:absolute;
+    top: 60%;
+}
+
+.mainmenu {
+    position: absolute;
+   top: 190%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 50px;
+   color:white;
+}
+
+.menu {
+    position:absolute;
+    top: 50%;
+    color: white;
+ 
+}
+
+strong{
+    font-weight: bold;
+    font-family: Gilroy !important;
+    font-size: 36px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: .015em;
+    line-height: 1.2em;
+}
+h2{
+    font-size: 50px;
+    margin:10px;
+    padding-left: 20%;
+}
+
+h3{
+    font: none;
+    font-size: 22px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: .015em;
+    line-height: 1.8em;
+    margin:100px;
+}
+
+h4{
+    line-height: 2em;
+}
+
+  
+.row:after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+
+.column {
+    float: right;
+    padding:none;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box{
+    display:inline-block;
+    height: 57vh;
+    width: 49%;
+    overflow: scroll;
+}
+
+.res{
+    font-size: 18px;
+    padding-left: 20%;
+}
+  
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
